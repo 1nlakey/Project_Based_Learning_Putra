@@ -1,0 +1,30 @@
+===== LAPORAN SISTEM FILE =====
+Tanggal: Mon Nov 17 10:47:53 AM UTC 2025
+
+[JUMLAH FILE PER FOLDER]
+Documents : 21
+Images : 20
+Archives : 20
+
+[PIPING: Jumlah file TXT]
+Jumlah file TXT : 21
+
+[SORT + UNIQ: Statistik Ekstensi File]
+     20 jpg
+      1 md
+      1 sh
+     22 txt
+     20 zip
+
+[UKURAN DIREKTORI TOTAL]
+208K	/home/putra/project_sistem_operasi_putra
+
+[WC: Informasi README.md]
+0 0 0 /home/putra/project_sistem_operasi_putra/README.md
+
+[DAFTAR FILE TERBARU]
+total 32
+-rw-rw-r-- 1 putra putra  465 Nov 17 10:47 report.txt
+-rw-rw-r-- 1 putra putra    0 Nov 17 10:47 README.md
+drwxrwxr-x 2 putra putra 4096 Nov 17 10:45 src
+drwxrwxr-x 2 putra putra 4096 Nov 17 10:29 documents
