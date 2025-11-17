@@ -1,137 +1,136 @@
-# Project Sistem Operasi – Manajemen File Otomatis
+# Project Sistem Operasi -- Manajemen File Otomatis
 
-Proyek ini dibuat untuk memenuhi tugas Project Based Learning (PBL) pada mata kuliah *Sistem Operasi*. Fokus dari proyek ini adalah penerapan perintah-perintah dasar Linux untuk mengelola file dan direktori secara otomatis menggunakan shell script.  
+Proyek ini dibuat untuk memenuhi tugas Project Based Learning (PBL) pada
+mata kuliah *Sistem Operasi*.\
+Fokus: penggunaan perintah dasar Linux (ls, find, grep, wc,
+du, sort, uniq) + piping (|) + redirection (>), untuk
+mengelola file dan membuat laporan otomatis.
 
-Proyek mensimulasikan tugas seorang administrator sistem yang harus mengorganisir file dalam jumlah besar, melakukan pencarian, monitoring, serta membuat laporan sistem secara otomatis.
+------------------------------------------------------------------------
 
+## 📁 Struktur Direktori Proyek
 
-====================================================
-📁 STRUKTUR DIREKTORI PROYEK
-====================================================
+    project_sistem_operasi_putra/
+    ├── src/
+    │   └── main.sh
+    ├── documents/
+    ├── images/
+    ├── archives/
+    ├── logs/
+    └── data/
 
-project_sistem_operasi_putra/
- ├── src/
- │   └── main.sh
- ├── documents/
- ├── images/
- ├── archives/
- ├── logs/
- ├── data/
- └── README.md
+------------------------------------------------------------------------
 
+## 🎯 Tujuan Proyek
 
-====================================================
-🎯 TUJUAN PROYEK
-====================================================
+1.  Otomatisasi pembuatan direktori\
+2.  Mengelompokkan file berdasarkan ekstensi (txt, jpg, zip)\
+3.  Pencarian file berdasarkan *nama* dan *isi*\
+4.  Generasi laporan sistem secara otomatis\
+5.  Menerapkan perintah dasar Linux + teknik piping & redirection
 
-1. Membuat struktur direktori proyek secara otomatis menggunakan shell script.  
-2. Mengelompokkan file berdasarkan tipe/extensi (txt, jpg, zip).  
-3. Melakukan pencarian file berdasarkan nama dan isi.  
-4. Menghasilkan laporan sistem menggunakan kombinasi perintah Linux.  
-5. Menerapkan perintah dasar Linux seperti:
-   - ls, find, grep, wc, du, sort, uniq, head
-   - piping (|)
-   - redirection (>)
+------------------------------------------------------------------------
 
+## ⚙️ Fitur Utama Script
 
-====================================================
-⚙️ FITUR UTAMA SCRIPT
-====================================================
+-   *Setup Direktori Otomatis*\
+    Script membuat folder:
 
-✔ *1. Setup Direktori Otomatis*  
-Script membuat folder:
-- documents/
-- images/
-- archives/
-- logs/
-- data/
+    -   documents/
+    -   images/
+    -   archives/
+    -   logs/
+    -   data/
 
-✔ *2. Generate File Sample Otomatis*  
-Script membuat:
-- 10 file teks (.txt)
-- 5 file gambar (.jpg)
-- 5 file arsip (.zip)
+-   *Generate File Sample*
 
-✔ *3. Organisasi File Berdasarkan Ekstensi*  
-Menggunakan perintah:
-- find
-- mv
+    -   10 file teks (.txt)\
+    -   5 file gambar (.jpg)\
+    -   5 file arsip (.zip)
 
-✔ *4. Pencarian File Berdasarkan Nama*  
-Menggunakan:
-- find
+-   *Organisasi File*\
+    Mengelompokkan file berdasarkan ekstensi menggunakan find + mv.
 
-✔ *5. Pencarian Isi File*  
-Menggunakan:
-- grep -Rni
+-   *Pencarian File*
 
-✔ *6. Generate Laporan Sistem Otomatis*  
-Isi laporan:
-- Jumlah file dalam tiap folder
-- Jumlah file TXT (piping)
-- Statistik ekstensi file (sort + uniq)
-- Ukuran total folder proyek (du -sh)
-- Statistik README.md (wc)
-- 5 file terbaru (ls -lt | head)
+    -   Berdasarkan nama (find)\
+    -   Berdasarkan konten (grep -Rni)
 
-Laporan disimpan ke:
-====================================================
-▶️ CARA MENJALANKAN SCRIPT
-====================================================
+-   *Generate Laporan Sistem*\
+    Laporan mencakup:
 
-1. Masuk folder proyek:
-   cd ~/project_sistem_operasi_putra
+    -   Jumlah file tiap folder (ls | wc)\
+    -   Jumlah file TXT (piping ls | grep | wc)\
+    -   Statistik ekstensi file (find | sort | uniq)\
+    -   Ukuran total proyek (du -sh)\
+    -   Info README.md (wc)\
+    -   5 file terbaru (ls -lt | head)
 
-2. Beri izin eksekusi:
-   chmod +x src/main.sh
+    Laporan disimpan di file report.txt
 
-3. Jalankan script:
-   ./src/main.sh
+------------------------------------------------------------------------
+
+## ▶️ Cara Menjalankan Script
+
+ bash
+cd ~/project_sistem_operasi_putra
+chmod +x src/main.sh
+./src/main.sh
 
 
-====================================================
-🔧 DAFTAR PERINTAH LINUX YANG DIGUNAKAN
-====================================================
+Ikuti menu untuk pilihan: 1. Setup Direktori\
+2. Generate File Sample\
+3. Organisasi File\
+4. Cari File\
+5. Cari Konten\
+6. Generate Laporan\
+7. Keluar
 
-| Perintah | Fungsi |
-|---------|--------|
-| mkdir   | Membuat direktori |
-| touch   | Membuat file |
-| find    | Mencari file |
-| grep    | Mencari teks dalam file |
-| mv      | Memindahkan file |
-| ls      | Menampilkan file |
-| wc      | Menghitung baris/kata/karakter |
-| du      | Menampilkan ukuran folder |
-| sort    | Mengurutkan data |
-| uniq    | Menghapus duplikasi |
-| head    | Menampilkan 5 baris pertama |
-| piping (|) | Menghubungkan output-input antar perintah |
-| >       | Menulis output ke file |
+------------------------------------------------------------------------
 
+## 🔧 Perintah Linux yang Digunakan
 
-====================================================
-👨‍💻 IDENTITAS PEMBUAT
-====================================================
+  Perintah        Kegunaan
+  --------------- ----------------------------
+  mkdir           Membuat direktori
+  touch           Buat file kosong
+  find            Cari file
+  grep -Rni       Cari teks di dalam file
+  mv              Pindahkan file
+  ls              List isi direktori
+  wc              Hitung baris/kata/karakter
+  du              Tampilkan ukuran direktori
+  sort            Sortir output
+  uniq            Hapus duplikat
+  head            Ambil baris teratas
+                  (pipe)
+  \> (redirect)   Menyimpan output ke file
 
-*Nama:* Putra Tri Rizkidana Meidiansyah
-*NIM:* 05301425069  
-*Prodi:* Sistem Informasi
-*Mata Kuliah:* Sistem Operasi  
-*Universitas Negeri Gorontalo*  
+------------------------------------------------------------------------
 
+## 👤 Identitas Pembuat
 
-====================================================
-📌 CATATAN TAMBAHAN
-====================================================
+*Nama:* Putra Tri Rizkidana Meidiansyah\
+*NIM:* 05301425069\
+*Program Studi:* Sistem Informasi\
+*Mata Kuliah:* Sistem Operasi\
+*Universitas:* Universitas Negeri Gorontalo
 
-- Script ini dapat dikembangkan menjadi sistem backup otomatis.  
-- Sistem directory otomatis sangat fleksibel dan bisa ditambah jenis file baru.  
-- Semua fungsi berjalan sepenuhnya melalui terminal Linux (CLI).  
+------------------------------------------------------------------------
 
+## 📌 Catatan Tambahan
 
-====================================================
-🚀 KESIMPULAN
-====================================================
+-   Script sangat fleksibel dan bisa dikembangkan menjadi sistem backup
+    otomatis.\
+-   Jika ingin menambahkan jenis file baru, tinggal modifikasi skrip
+    main.sh.\
+-   Semua interaksi terjadi di terminal (CLI), cocok untuk latihan
+    administrasi sistem.
 
-Proyek ini menunjukkan bagaimana perintah dasar Linux dapat digabungkan untuk membuat sistem manajemen file otomatis yang efisien dan terstruktur, mirip dengan pekerjaan seorang administrator sistem di lingkungan kerja nyata.
+------------------------------------------------------------------------
+
+## 🚀 Kesimpulan
+
+Proyek ini memperlihatkan bagaimana perintah dasar Linux dapat
+digabungkan untuk membangun manajemen file otomatis yang efisien ---
+mirip tugas seorang sysadmin di dunia nyata.
