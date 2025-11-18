@@ -1,5 +1,5 @@
 ===== LAPORAN SISTEM FILE =====
-Tanggal: Mon Nov 17 10:47:53 AM UTC 2025
+Tanggal: Tue Nov 18 12:06:54 AM UTC 2025
 
 [JUMLAH FILE PER FOLDER]
 Documents : 21
@@ -10,21 +10,87 @@ Archives : 20
 Jumlah file TXT : 21
 
 [SORT + UNIQ: Statistik Ekstensi File]
+      1 git/COMMIT_EDITMSG
+      1 git/config
+      1 git/description
+      1 git/HEAD
+      1 git/index
+      1 git/info/exclude
+      1 git/logs/HEAD
+      1 git/logs/refs/heads/master
+      1 git/logs/refs/remotes/Project_Based_Learning_Putra/master
+      1 git/objects/02/3eefd44e556f93de62d798e99bdbb17c08966d
+      1 git/objects/05/77e2db46a43ec3e5d6bbdc05c58980783d9d5b
+      1 git/objects/05/b7ce51017428b7cca7f1abd87012189d9f01b2
+      1 git/objects/0b/9b0d8c4c779a808745047776b5a29edf083b96
+      1 git/objects/0f/39a2bc5a59ba210c97484c7d81b6622a0023f9
+      1 git/objects/12/4e4ec35733d39c39045ea0b5e6f724eadfaee9
+      1 git/objects/15/ea539f500529bd4fc6cb70b36232b532258360
+      1 git/objects/1a/1c9ca065bb700274b8a5df145ef601160694dc
+      1 git/objects/20/9c7f9d1692af23c5456ef55f020726022974fc
+      1 git/objects/26/7ecb32b8c69561c82f1a304c045d09dec6f4a9
+      1 git/objects/2e/7873b69deebe2ee7196b79a820960c3812dff8
+      1 git/objects/2f/2daf4b4dfaf44029db76c563f3c8a2c33ea531
+      1 git/objects/32/6e92df698b733973e1b58d6b530154bf9b4565
+      1 git/objects/36/ab1da61140a289922c10ce8db02d2e244e2c39
+      1 git/objects/3c/adac70c07871d4c6eab6ec224bf10107c50ac3
+      1 git/objects/42/01e12de42b5f50074a76af3fa07c0d5952a7a1
+      1 git/objects/4d/c127d3880a83164f2dd78e1aa2cd1ead5a7573
+      1 git/objects/58/45d2f6a335e9d72b8c86f9e67acb21cab8c158
+      1 git/objects/5f/41ca26f9d959d0b56170a54e87dcb187f29ce2
+      1 git/objects/66/88c073731fd8f2ecc5f094c0b2389d90a390ea
+      1 git/objects/70/d078b3e421dc166d3f22170e09c04f5b8d7abc
+      1 git/objects/72/3affd6f02dbe432a41281c36d5d57ece923706
+      1 git/objects/75/bbc99264f2d684e68d15d3a32e71d405c1a550
+      1 git/objects/77/20eb05572cdf80f98ec44de82ae48552b9cda1
+      1 git/objects/78/4e8a457c9191f353d49a24c32dddb76656e405
+      1 git/objects/7c/50dfd5ebb0124e2fad41c610dc5e92f4ffb354
+      1 git/objects/84/77f640297d4b6f2f54ccdecf0a88039fc63d63
+      1 git/objects/85/d99856405125b579c96ccfb412f2596029fa9a
+      1 git/objects/86/1aff778aed00eaffdc975cdd914e2cccae44dd
+      1 git/objects/87/73c68d498ba7fb2878b753da3a39b590918079
+      1 git/objects/87/e8dd0776ecb68d1277db772e6de34eaff684d9
+      1 git/objects/8f/c069fdc6b4c7a6308654b8082d9c9503e238ee
+      1 git/objects/92/55ef859aaa19b8fb6ea9e9a6b9b6366ea34e7c
+      1 git/objects/92/d916341bdaa3b7e1be6c84a57c12055feaaa96
+      1 git/objects/93/99a045bded34d49c272046403792662a7f2364
+      1 git/objects/94/35e6ffb9aa7bfb69eb7e527e7b9710ae43caa8
+      1 git/objects/94/7cbad9694b44477127aa83c27fdba2032fb19d
+      1 git/objects/95/40312627ece2422019e0dced2fc9330e47a902
+      1 git/objects/96/5fbe72d8fbf8a71e89b98ba2a31ece48403997
+      1 git/objects/9f/9f13a8ce5274160d256bf35e1284456258e62d
+      1 git/objects/a2/676c6f11c1d13be149759e03837724e2fb5f10
+      1 git/objects/b0/2a29e8bd94e409036d7755eaab89c1e2aa1e3a
+      1 git/objects/bb/aafd8f904bc6d0e2414e2b28c0f21fd01cd091
+      1 git/objects/c0/f83921ec4da030650577909291654d21a9764e
+      1 git/objects/cc/8c2ed5a4e468925c378838747d8860e9842ef8
+      1 git/objects/d5/22714da46da08eda925551a3c0a2a370730b8c
+      1 git/objects/d6/20571c0e57427b0d8ae881eaf2b0a116a3a8f0
+      1 git/objects/db/1001b2b842af752ea005eb8d7138ee5a83dd22
+      1 git/objects/db/5604091653be15a629fb23e9b9b48576b48f5c
+      1 git/objects/e6/46184caf997493e3c53077648bd26b9f046794
+      1 git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+      1 git/objects/e8/5db446a6fbaf67901872a74ba12723bc8a35d3
+      1 git/objects/f5/371096b84a363baa207aff9ed37ce8f176f8aa
+      1 git/objects/ff/4a75a993c17ba7467d37289971cc2571385347
+      1 git/refs/heads/master
+      1 git/refs/remotes/Project_Based_Learning_Putra/master
      20 jpg
       1 md
+     14 sample
       1 sh
      22 txt
      20 zip
 
 [UKURAN DIREKTORI TOTAL]
-208K	/home/putra/project_sistem_operasi_putra
+800K	/home/putra/project_sistem_operasi_putra
 
 [WC: Informasi README.md]
-0 0 0 /home/putra/project_sistem_operasi_putra/README.md
+ 136  419 3779 /home/putra/project_sistem_operasi_putra/README.md
 
 [DAFTAR FILE TERBARU]
-total 32
--rw-rw-r-- 1 putra putra  465 Nov 17 10:47 report.txt
--rw-rw-r-- 1 putra putra    0 Nov 17 10:47 README.md
-drwxrwxr-x 2 putra putra 4096 Nov 17 10:45 src
-drwxrwxr-x 2 putra putra 4096 Nov 17 10:29 documents
+total 40
+-rw-rw-r-- 1 putra putra 4181 Nov 18 00:06 report.txt
+drwxrwxr-x 2 putra putra 4096 Nov 17 23:29 documents
+drwxrwxr-x 2 putra putra 4096 Nov 17 12:10 src
+-rw-rw-r-- 1 putra putra 3779 Nov 17 11:05 README.md
